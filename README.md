@@ -39,6 +39,11 @@ Yalnızca bir veritabanı oluşturup application.properties dosyası üzerinden 
   #### Postgre SQL:
    Hem ilişkisel bir veritabanı sunması hem de açık kaynaklı ve ücretsiz olması sebebiyle tercih edilmiştir.
    
+   # Ekran Görünteleri
+   Öncelikle yazın evi eklenildi.
    
-  
- 
+![Image](https://github.com/cemalgungor/library_system/blob/master/publisher.png)
+   Ardından yazar eklenildi.
+   ![Image](https://github.com/cemalgungor/library_system/blob/master/authorr.png)
+ Ardından Kitap eklenildi.
+  ![Image](https://github.com/cemalgungor/library_system/blob/master/book.png)
