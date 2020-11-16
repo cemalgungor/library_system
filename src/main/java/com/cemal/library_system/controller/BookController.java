@@ -22,19 +22,13 @@ import java.util.List;
 @RequestMapping("/book")
 public class BookController {
     private final BookServiceImpl bookService;
-    private final IAuthorService authorService;
-    private final IPublisherService publisherService;
     private  final AuthorRepo authorRepo;
     private  final PublisherRepo publisherRepo;
 
     public BookController(BookServiceImpl bookService,
                           AuthorRepo authorRepo,
-                          IAuthorService authorService,
-                          IPublisherService publisherService,
                           PublisherRepo publisherRepo) {
         this.bookService = bookService;
-        this.authorService=authorService;
-        this.publisherService=publisherService;
         this.authorRepo=authorRepo;
         this.publisherRepo=publisherRepo;
     }

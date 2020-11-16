@@ -156,13 +156,18 @@
                             <input type="text" th:field="*{isbnNumber}" class="form-control"
                                    id="isbnNumber" placeholder="isbnNumber" />
                         </div>
-
+                        <div>
+                        <label class="col-form-label">Author Name</label>
                         <select class="form-control"  th:field="*{author.id}" >
                             <option  th:each="authorss :${authors} " th:value="${authorss.getId()}"  th:text="${authorss.getAuthorName()}"></option>
                         </select>
+                        </div>
+                        <div>
+                        <label class="col-form-label">Publisher Name</label>
                         <select class="form-control"  th:field="*{publisher.id}">
                             <option th:each="publisher :${publishers} "  th:value="${publisher.getId()}"  th:text="${publisher.getPublisherName()}"></option>
                         </select>
+                        </div>
 
                         <div class="col-md-6">
                             <input type="submit" class="btn btn-primary" value=" Submit ">
