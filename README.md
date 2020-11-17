@@ -4,8 +4,8 @@ Bu projenin amacı kitap yönetimi için kolaylık sağlamaktır.Bu proje geliş
 
 #### Nasıl Kitap,Yazar ve Yayın Evi eklerim?
 
-Bu projede 3 adet ana alan vardır.Bunlar kitap,yayın evi ve yazar alanlarıdır. Öncelikle bir kitap eklerken yazar ve yayın evini eklemelisiniz.
-Sadece önceden eklenilen yazarlara ve yayın evleri için kitap yazarı ve yayın evi eklenilir.Bu sistem ilerde daha düzenli hale getirilecektir.
+Bu projede 3 adet ana alan vardır.Bunlar kitap,yayın evi ve yazar alanlarıdır. Öncelikle bir kitap eklemeden önce kitabın yazarı ve yayın evini eklemelisiniz.
+Sadece önceden eklenilen yazarlar ve yayın evleri için kitap yazarı ve yayın evi eklenelir.Yani önceden eklediğiniz yazar ve yayın evi select list içerisinde gösterilecek ve onlardan istediğinizi seçebileceksiniz.Bu sistem ilerde daha düzenli hale getirilecektir.
 Ardından kitap eklerken gerekli bilgiler doldurulduktan sonra yayın evi ve yazar'da seçilerek kitap ekleme işlemi tamamlanır.
 
 ## Nasıl Kullanırım?
