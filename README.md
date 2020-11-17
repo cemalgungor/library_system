@@ -40,7 +40,7 @@ Yalnızca bir veritabanı oluşturup application.properties dosyası üzerinden 
    Hem ilişkisel bir veritabanı sunması hem de açık kaynaklı ve ücretsiz olması sebebiyle tercih edilmiştir.
    
    # Ekran Görünteleri
-   Öncelikle yazın evi eklenildi.
+   Öncelikle yayın evi eklenildi.
    
 ![Image](https://github.com/cemalgungor/library_system/blob/master/publisher.png)
    Ardından yazar eklenildi.
